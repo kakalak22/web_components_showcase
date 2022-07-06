@@ -65,7 +65,14 @@ export default function Cards() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="outlined">Visit my Github</Button>
+              <Button
+                variant="outlined"
+                onClick={() =>
+                  (window.location = "https://github.com/kakalak22")
+                }
+              >
+                Visit my Github
+              </Button>
             </Stack>
           </Container>
         </Box>
